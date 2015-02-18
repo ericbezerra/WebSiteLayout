@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+h1{
+	font-size: 25px;
+}
+#cian{
+	color: #0f958c;	
+}
+.arial{
+	font-family: serif;
+}
+#wrap{
+	background-color: #d0d0d0;
+	width: 80%;
+	margin: auto;
+}
+h2:hover{
+	text-decoration: underline;
+}
