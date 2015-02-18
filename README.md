@@ -10,7 +10,7 @@ have a sure that you can help us.
 Instructions:
 -------------------
 To see this web site.
-download this project and execute the *primeiro estilo.html* with a browser(like chrome, firefox, IE or other...).
+download this project and execute the *index.html* with a browser(like chrome, firefox, IE or other...).
 
 
 thanks.
