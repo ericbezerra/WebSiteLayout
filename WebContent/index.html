@@ -1,21 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
 	<head>
-		<link rel="stylesheet" type="text/css" href="style/style.css"/>
-		<meta charset="UTF-8">
-		<title>Meu Site</title>
-		
+		<title>Titulo da páginca</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
 	</head>
-	
-	<body>
+
+	<body>	
 		<div id="wrap">
-			<h1 id="cian" class="arial">Meu Site Logo</h1>
-			<h2>Home | Serviços | Contato</h2>
-			<h3>Painel Central</h3>
-			<h4>Menu Serviços      Login Clientes</h4>
-			<h5>Rodapé</h5>
+			<header>
+				<h1>Banner do site</h1>
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Artigos</a></li>
+						<li><a href="#">Contatos</a></li>
+						<li><a href="#">Sobre</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<div id="content">
+				<section>
+					<h2>Titulo da seção</h2>
+					<p>Contuúdo da seção</p>
+				</section>
+				<article>
+					<h2>Titulo do artigo</h2>
+					<p>Conteudo do arigo</p>
+				</article>
+			</div>
+
+			<div id="sidebar">
+				<aside>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Artigos</a></li>
+						<li><a href="#">Contatos</a></li>
+						<li><a href="#">Sobre</a></li>
+					</ul>
+				</aside>
+			</div>
+			
+			<footer>
+				Rodapé
+			</footer>
 		</div>
 	</body>
-
 </html>
