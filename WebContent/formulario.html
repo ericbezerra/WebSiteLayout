@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Titulo da páginca</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+	</head>
+<body>	
+		<div id="wrap">
+			<header>
+				<h1>Banner do site</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">Artigos</a></li>
+						<li><a href="#">Contatos</a></li>
+						<li><a href="#">Sobre</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<div id="content">
+				<section>
+					<h2>Formulário</h2>
+					<form acton="" method="GET">
+
+						<label for="nome">Nome: </label>
+						<input id="nome" type="text" placeholder="Digite seu nome..." name="nome" />
+
+						<label for="opcao">Você gostou do nosso site?</label>
+						<input id="opcao" type="radio" name="opcao" value="sim" checked="checked" />Sim
+						<input id="opcao" type="radio" name="opcao" value="nao" />Não
+
+						<label for="linguagem">Você quer saber mais sobre: </label>
+						<input id="linguagem" name="html" type="checkbox">HTML
+						<input id="linguagem" name="css" type="checkbox">CSS
+						<input id="linguagem" name="java" type="checkbox">java
+						<input id="linguagem" name="cpp" type="checkbox">C++
+						
+						<textarea name="msg"></textarea>
+						
+
+						<input type="submit" value="Enviar">
+					</form>
+				</section>
+			</div>
+
+			<div id="sidebar">
+				<aside>
+					<ul>
+						<li><a href="formulario.html">Formulário</a></li>
+						<li><a href="#">Artigos</a></li>
+						<li><a href="#">Contatos</a></li>
+						<li><a href="#">Sobre</a></li>
+					</ul>
+				</aside>
+			</div>
+			
+			<footer>
+				Rodapé
+			</footer>
+		</div>
+	</body>
+</html>
